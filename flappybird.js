@@ -349,7 +349,7 @@ async function finishGame() {
     }
     try {
         console.log(score) 
-        const response = await fetch(`https://api.telegram.org/bot${thetoken}/sendMessage`, {
+        const response = await fetch(`https://api.telegram.org/bot6994408856:AAHK3A-zUeCEN9mhk7cm-EKa5ZGYR-raUGg/sendMessage`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
